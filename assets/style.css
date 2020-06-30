@@ -1,0 +1,12 @@
+body {
+    font-family: monospace;
+    text-align: center;
+    width: 85vw;
+    height: 100vh;
+    border: solid;
+    margin: auto;
+}
+
+.card {
+    float: left;
+}
