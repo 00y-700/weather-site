@@ -18,9 +18,9 @@ $("#submit").on("click", function() {
 
     var K = (response.main.temp);
     var F = Math.trunc((K - 273.15) * 1.80 + 32);
-    $(".wind").empty().append(response.wind.speed);
-    $(".humidity").empty().append(response.main.humidity);
-    $(".temp").empty().append(F);
+    $(".wind").empty().append(response.wind.speed + " mph");
+    $(".humidity").empty().append(response.main.humidity + " %");
+    $(".temp").empty().append(F + " F");
 
   });
 });
